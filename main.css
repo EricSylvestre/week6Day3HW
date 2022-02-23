@@ -1,0 +1,79 @@
+.high {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightcoral;
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    min-width: 320px;
+
+
+}
+
+.low {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightblue;
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    min-width: 320px;
+
+}
+
+.forecast {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightgreen;
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    min-width: 320px;
+}
+
+.humidity {
+    border: 2px solid black;
+    padding: 20px;
+    background-color: lightgrey;
+    display: block;
+    margin: 15px auto;
+    width: 50%;
+    min-width: 320px;
+}
+
+body {
+    text-align: center;
+    background-image: url(/images/Blue_Sky_with_Clouds_Background-352.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+
+.input-form {
+    margin: 15px auto;
+    border: 2px solid;
+}
+
+.btn {
+    border: 2px solid black;
+    color: black;
+    background-color: white;
+}
+
+.btn:hover {
+    background-color: black;
+    box-shadow:  black;
+}
+
+.btn:active {
+    background-color: black;
+    box-shadow: 0 5px black;
+    transform: translateY(4px);
+}
+.city {
+    text-align: center;
+    font-size: 24px;
+    padding-top: 15px;
+}
+
